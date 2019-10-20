@@ -88,7 +88,8 @@ Vagrant.configure("2") do |config|
   # Virtualbox settings
   config.vm.provider "virtualbox" do |vb|
     vb.name   = argMachineName
-    vb.memory = "6144" # 6 GB
+    vb.memory = "8128" # 8 GB
+    # vb.memory = "6144" # 6 GB
     # vb.memory = "4096" # 4 GB + enable add_swap.sh below !!!
   end
 
